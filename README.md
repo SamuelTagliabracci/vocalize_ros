@@ -13,6 +13,12 @@ Terminal Example: espeak-ng "Hello. World." -v zh-yue -p 90 -a 150 -g 15 -s 150 
 
 espeak-ng --voices
 
+# Volume Control
+
+pacmd set-sink-volume index volume
+
+pacmd set-source-volume index volume for volume control (65536 = 100 %, 0 = mute; or a bit more intuitive 0x10000 = 100 %, 0x7500 = 75 %, 0x0 = 0 %)
+
 # Config Setting Specific Audio Device
 
 pactl list short sinks
