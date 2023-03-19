@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="vocalize_node" pkg="vocalize" type="vocalize.py" output="screen">
+    <param name="voice" value="zh-yue"/>
+    <param name="pitch" value="0"/>
+    <param name="speed" value="150"/>
+    <param name="amplitude" value="150"/>
+    <param name="wordgap" value="15"/>
+    <param name="lastdata" value="lastdata"/>
+  </node>
+</launch>
