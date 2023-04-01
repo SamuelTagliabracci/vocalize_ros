@@ -6,8 +6,14 @@ Creates a /vocalize topic that you can publish string data to. String data will 
 
 sudo apt install espeak-ng
 
+# Install Additional Languages (MBROLA)
+
+sudo apt-cache search mbrola
+sudo apt install mbrola mbrola-us1 mbrola-us2 mbrola-us3
+
 # Test
-Terminal Example: espeak-ng "Hello. World." -v zh-yue -p 90 -a 150 -g 15 -s 150 -x
+espeak-ng "Hello. World." -v zh-yue -p 90 -a 150 -g 15 -s 150 -x
+espeak-ng "Hello. World. I am mbrola voice US3" -v mb-us3 -p 90 -a 150 -g 15 -s 150 -x
 
 # List Languages
 
