@@ -9,6 +9,7 @@ sudo apt install espeak-ng
 # Install Additional Languages (MBROLA)
 
 sudo apt-cache search mbrola
+
 sudo apt install mbrola mbrola-us1 mbrola-us2 mbrola-us3
 
 # Test
