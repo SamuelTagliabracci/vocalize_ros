@@ -5,6 +5,9 @@ Creates a /vocalize topic that you can publish string data to. String data will 
 # Install
 
 sudo apt install espeak-ng
+sudo apt install sox
+sudo apt-get install libsox-fmt-mp3
+
 
 # Install Additional Languages (MBROLA)
 
