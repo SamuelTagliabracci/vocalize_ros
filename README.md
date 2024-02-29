@@ -21,6 +21,12 @@ espeak-ng "Hello. World." -v zh-yue -p 90 -a 150 -g 15 -s 150 -x
 
 espeak-ng "Hello. World. I am mbrola voice US3" -v mb-us3 -p 90 -a 150 -g 15 -s 150 -x
 
+# Use Specific Audio Device
+
+find device names via alsamixer -> F6
+
+espeak-ng -d "default:0" "Hello. World"
+
 # List Languages
 
 espeak-ng --voices
